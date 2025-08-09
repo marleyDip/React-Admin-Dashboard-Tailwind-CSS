@@ -2,7 +2,7 @@
 
 ## A modern, responsive Admin Dashboard built with a clean UI and essential features for managing and visualizing data efficiently.
 
-## ✨ Features
+### ✨ Features
 - 📂 Side Menu Navigation – Easy access to all dashboard sections
 
 - 📋 Data Tables – Organized tabular data with sorting & filtering
