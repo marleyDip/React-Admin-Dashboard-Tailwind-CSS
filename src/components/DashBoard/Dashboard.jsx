@@ -1,11 +1,12 @@
 import StatsGrid from "./StatsGrid";
+import ChartSection from "./chartSection";
 
 function Dashboard() {
   return (
     <div className="space-y-6">
-      {/* stats grid */}
       <StatsGrid />
-      {/* stats grid */}
+
+      <ChartSection />
     </div>
   );
 }
