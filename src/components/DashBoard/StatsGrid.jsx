@@ -57,16 +57,16 @@ function StatsGrid() {
       {stats.map((stats, index) => {
         return (
           <div
-            className="group p-6 backdrop-blur-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/50 dark:border-slate-700/50 rounded-2xl hover:shadow-xl hover:shadow-slate-200/50 dark:hover:shadow-slate-900/20 transition-all duration-300"
+            className="group p-3 sm:p-6 backdrop-blur-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/50 dark:border-slate-700/50 rounded-2xl hover:shadow-xl hover:shadow-slate-200/50 dark:hover:shadow-slate-900/20 transition-all duration-300"
             key={index}
           >
             <div className="flex items-start justify-between">
               <div className="flex-1">
-                <p className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">
+                <p className="text-xs sm:text-sm font-light sm:font-medium text-slate-600 dark:text-slate-400 mb-2">
                   {stats.title}
                 </p>
 
-                <p className="text-3xl font-bold text-slate-800 dark:text-white mb-4">
+                <p className="text-xl sm:text-3xl font-medium sm:font-bold text-slate-800 dark:text-white mb-4">
                   {stats.value}
                 </p>
 
@@ -78,14 +78,14 @@ function StatsGrid() {
                   )}
 
                   <span
-                    className={`text-sm font-semibold ${
+                    className={`text-xs sm:text-sm  font-semibold ${
                       stats.trend === "up" ? "text-emerald-500" : "text-red-500"
                     }`}
                   >
                     {stats.change}
                   </span>
 
-                  <span className="text-sm text-slate-500 dark:text-slate-400 ">
+                  <span className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 ">
                     vs last Month
                   </span>
                 </div>
