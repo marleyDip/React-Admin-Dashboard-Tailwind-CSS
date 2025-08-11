@@ -106,7 +106,7 @@ function Sidebar({ collapsed, onToggle, currentPage, onPageChange }) {
   return (
     <div
       className={`${
-        collapsed ? "w-20" : "w-36 sm:w-54 md:w-72"
+        collapsed ? "w-12 sm:w-20" : "w-36 sm:w-54 md:w-72"
       } relative z-10 flex flex-col bg-white/80 dark:bg-slate-900/80  backdrop-blur-xl border-r border-slate-200/50 hover:border-slate-700/50 transition duration-300 ease-in-out`}
     >
       {/* logo */}
