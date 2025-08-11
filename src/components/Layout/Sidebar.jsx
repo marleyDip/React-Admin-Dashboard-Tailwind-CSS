@@ -139,7 +139,7 @@ function Sidebar({ collapsed, onToggle, currentPage, onPageChange }) {
           return (
             <div key={item.id}>
               <button
-                className={`w-full flex items-center justify-between p-1 sm:p-3 rounded-xl transition-all duration-200 ${
+                className={`w-full flex items-center justify-between mt-1 p-1 sm:p-3 sm:mt-0 rounded-xl transition-all duration-200 ${
                   currentPage === item.id || item.active
                     ? "bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white shadow-lg shadow-blue-500/25"
                     : "text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800/50"
