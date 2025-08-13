@@ -203,7 +203,10 @@ function TableSection() {
         <div className="p-3 sm:p-6 space-y-4">
           {topProducts.map((product, index) => {
             return (
-              <div className="flex items-center justify-between p-2 sm:p-4 rounded-xl hover:bg-slate-50 hover:dark:bg-slate-800/50 transition-colors">
+              <div
+                className="flex items-center justify-between p-2 sm:p-4 rounded-xl hover:bg-slate-50 hover:dark:bg-slate-800/50 transition-colors"
+                key={index}
+              >
                 <div className="flex-1">
                   <h4 className="text-xs sm:text-sm font-medium sm:font-semibold text-slate-800 dark:text-white">
                     {product.name}
