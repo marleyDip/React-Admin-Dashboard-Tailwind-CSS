@@ -85,7 +85,7 @@ function RevenueChart() {
               fontSize={12}
               tickLine={false}
               axisLine={false}
-              tickFormatter={(value) => `৳ ${value / 1000}k`}
+              tickFormatter={(value) => `৳${value / 1000}k`}
             />
 
             <Tooltip
