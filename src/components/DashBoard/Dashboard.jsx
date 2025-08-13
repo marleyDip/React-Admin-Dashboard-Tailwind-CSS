@@ -1,3 +1,4 @@
+import ActivityFeed from "./ActivityFeed";
 import StatsGrid from "./StatsGrid";
 import TableSection from "./TableSection";
 import ChartSection from "./chartSection";
@@ -12,6 +13,10 @@ function Dashboard() {
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-3 sm:gap-6">
         <div className="xl:col-span-2">
           <TableSection />
+        </div>
+
+        <div>
+          <ActivityFeed />
         </div>
       </div>
     </div>
